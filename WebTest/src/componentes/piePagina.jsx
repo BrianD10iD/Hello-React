@@ -1,12 +1,13 @@
 import { Fragment } from "react";
 
-function pie(){
-    return(
+function Pie(){
+
+    return (
         <>
-        <h4>Correr</h4>
-        <h5>Expertos en recorrer el peru</h5>
+        <h4>TravelFAST</h4>
+        <h5>Expertos en recorrer el Perú</h5>
         </>
-    )
+    );
 }
 
-export default pie
+export default Pie;

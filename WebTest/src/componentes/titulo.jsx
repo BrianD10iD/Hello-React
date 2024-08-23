@@ -1,12 +1,13 @@
 import { Fragment } from "react";
 
-function titulo(){
-    return(
+function Titulo (){
+
+    return (
         <>
-        <h1>Conoce el perú</h1>
-        <h2>En el peru existe hermosos lugares para visitar</h2>
+        <h1>Conoce el Perú Primero</h1>
+        <h2>En el Perú existen hermosos lugares para conocer y disfrutar</h2>
         </>
     );
 }
 
-export default titulo;
+export default Titulo;

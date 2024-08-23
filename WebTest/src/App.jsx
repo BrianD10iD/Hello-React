@@ -1,15 +1,27 @@
 import { Fragment } from "react";
-import titulo from './componentes/titulo'
-import pie from './componentes/piePagina'
+import Titulo from './componentes/titulo';
+import Pie from './componentes/piePagina'
+import Ciudad from "./componentes/Ciudad";
 
-function app(){
+function App() {
 
-  return(
+  return (
     <>
-    <titulo />
-    <pie />
+      <Titulo />
+      <Ciudad
+        nombre="Brian"
+        descripcion="Capital del peru es lima"
+        imagen=""
+      />
+
+      <Ciudad
+        nombre="Coila"
+        descripcion="Capital del peru es arequipa"
+        imagen=""
+      />
+      <Pie />
     </>
   );
 }
 
-export default app;
+export default App;
